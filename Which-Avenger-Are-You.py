@@ -62,3 +62,14 @@ elif q5 == "d":
     score += 1
 else:
     print("invalid answer.")
+
+if score >= 16:
+    print("You are Thor!")
+elif score >= 12:
+    print("You are Captain America!")
+elif score >= 8:
+    print(("You are Hawkey!"))
+elif score >= 4:
+    print("You are Black Window!")
+else:
+    print("You are Iron Man!")
