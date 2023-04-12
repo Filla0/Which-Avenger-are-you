@@ -49,4 +49,16 @@ elif q4 == "c":
 elif q4 == "d":
     score += 1
 else:
-    print("invalid answer.")                   
+    print("invalid answer.")
+
+q5 = input("What is your favorite food?\n(a) Steak\n(b) Salad\n(c) Pizza\n(d) Sushi\n")
+if q5== "a":
+    score += 4
+elif q5 == "b":
+    score += 3
+elif q5 == "c":
+    score += 2
+elif q5 == "d":
+    score += 1
+else:
+    print("invalid answer.")
