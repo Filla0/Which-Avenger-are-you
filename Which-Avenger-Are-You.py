@@ -37,4 +37,16 @@ elif q3 == "c":
 elif q3 == "d":
     score += 1
 else:
-    print("invalid answer.")               
+    print("invalid answer.")
+
+q4 = input("What is your favorite Hobby?\n(a) working out\n(b) Reading\n(c) Playing video games\n(d) watching TV\n")
+if q4== "a":
+    score += 4
+elif q4 == "b":
+    score += 3
+elif q4 == "c":
+    score += 2
+elif q4 == "d":
+    score += 1
+else:
+    print("invalid answer.")                   
